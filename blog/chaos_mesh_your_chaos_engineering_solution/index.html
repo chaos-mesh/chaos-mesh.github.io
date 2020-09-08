@@ -9,26 +9,26 @@
 <script async src="https://www.google-analytics.com/analytics.js"></script>
 <link rel="search" type="application/opensearchdescription+xml" title="Chaos Mesh®" href="/opensearch.xml"><title data-react-helmet="true">Chaos Mesh - Your Chaos Engineering Solution for System Resiliency on Kubernetes | Chaos Mesh®</title><meta data-react-helmet="true" property="og:title" content="Chaos Mesh - Your Chaos Engineering Solution for System Resiliency on Kubernetes | Chaos Mesh®"><meta data-react-helmet="true" name="description" content="Chaos Engineering"><meta data-react-helmet="true" property="og:description" content="Chaos Engineering"><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" property="og:image" content="https://chaos-mesh.org/img/chaos-engineering.png"><meta data-react-helmet="true" property="twitter:image" content="https://chaos-mesh.org/img/chaos-engineering.png"><meta data-react-helmet="true" name="twitter:image:alt" content="Image for Chaos Mesh - Your Chaos Engineering Solution for System Resiliency on Kubernetes"><link data-react-helmet="true" rel="shortcut icon" href="/img/favicon.ico"><link data-react-helmet="true" rel="preconnect" href="https://BH4D9OD16A-dsn.algolia.net" crossorigin="true"><link rel="stylesheet" href="/styles.478b4742.css">
 <link rel="preload" href="/styles.b43e97a4.js" as="script">
-<link rel="preload" href="/runtime~main.2c2c824e.js" as="script">
+<link rel="preload" href="/runtime~main.32b31682.js" as="script">
 <link rel="preload" href="/main.9bc606a4.js" as="script">
 <link rel="preload" href="/1.1d920afd.js" as="script">
 <link rel="preload" href="/2.2cf863d7.js" as="script">
-<link rel="preload" href="/0ed4ff67.15bf95c2.js" as="script">
+<link rel="preload" href="/0ed4ff67.e2d0d3de.js" as="script">
 <link rel="preload" href="/1be78505.4906242b.js" as="script">
-<link rel="preload" href="/1e924268.e1dc4f22.js" as="script">
-<link rel="preload" href="/3220db10.45605dbc.js" as="script">
-<link rel="preload" href="/392146af.25bebdce.js" as="script">
-<link rel="preload" href="/3aecab64.8a0ccd41.js" as="script">
-<link rel="preload" href="/42852643.e8e8362a.js" as="script">
+<link rel="preload" href="/1e924268.914c1cdc.js" as="script">
+<link rel="preload" href="/3220db10.e2f04ae6.js" as="script">
+<link rel="preload" href="/392146af.31f4f276.js" as="script">
+<link rel="preload" href="/3aecab64.21409ac8.js" as="script">
+<link rel="preload" href="/42852643.63298fc3.js" as="script">
 <link rel="preload" href="/6875c492.f3d1e663.js" as="script">
-<link rel="preload" href="/6c5c66fd.bf39096b.js" as="script">
-<link rel="preload" href="/9156c872.41f39a1f.js" as="script">
-<link rel="preload" href="/9ecd795e.8fe2cd81.js" as="script">
+<link rel="preload" href="/6c5c66fd.886faa46.js" as="script">
+<link rel="preload" href="/9156c872.aead511d.js" as="script">
+<link rel="preload" href="/9ecd795e.5f587114.js" as="script">
 <link rel="preload" href="/a6aa9e1f.00b54a9c.js" as="script">
-<link rel="preload" href="/bf1bff84.560ba245.js" as="script">
-<link rel="preload" href="/c4f5d8e4.4c680263.js" as="script">
-<link rel="preload" href="/d4668d37.6bc7f49a.js" as="script">
-<link rel="preload" href="/f544d37c.014639cf.js" as="script">
+<link rel="preload" href="/bf1bff84.04a18787.js" as="script">
+<link rel="preload" href="/c4f5d8e4.88afaff4.js" as="script">
+<link rel="preload" href="/d4668d37.58ab23c7.js" as="script">
+<link rel="preload" href="/f544d37c.f2543bcc.js" as="script">
 <link rel="preload" href="/99.3ca99be9.js" as="script">
 <link rel="preload" href="/3cf74380.3284e823.js" as="script">
 </head>
@@ -39,26 +39,26 @@
 </span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain"> &quot;github.com/chaos-mesh/chaos-mesh/api/v1alpha1&quot;</span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    &quot;sigs.k8s.io/controller-runtime/pkg/client&quot;</span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">)</span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block">
 </span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">func main() {</span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  ...</span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  delay := &amp;chaosv1alpha1.NetworkChaos{</span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  Spec: chaosv1alpha1.NetworkChaosSpec{...},</span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">      }</span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">      k8sClient := client.New(conf, client.Options{ Scheme: scheme.Scheme })</span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  k8sClient.Create(context.TODO(), delay)</span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">      k8sClient.Delete(context.TODO(), delay)</span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">}</span></div></div></div></div></div><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="what-does-the-future-hold"></a>What does the future hold?<a aria-hidden="true" tabindex="-1" class="hash-link" href="#what-does-the-future-hold" title="Direct link to heading">#</a></h2><p>In this article, we introduced you to Chaos Mesh, our open source cloud-native Chaos Engineering platform. There are still many pieces in progress, with more details to unveil regarding the design, use cases, and development. Stay tuned.</p><p>Open sourcing is just a starting point. In addition to the infrastructure-level chaos experiments introduced in previous sections, we are in the process of supporting a wider range of fault types of finer granularity, such as:</p><ul><li>Injecting errors at the system call and kernel levels with the assistance of eBPF and other tools</li><li>Injecting specific error types into the application function and statement levels by integrating <a href="https://github.com/pingcap/failpoint" target="_blank" rel="noopener noreferrer">failpoint</a>, which will cover scenarios that are otherwise impossible with conventional injection methods</li></ul><p>Moving forward, we will continuously improve the Chaos Mesh Dashboard, so that users can easily see if and how their online businesses are impacted by fault injections. In addition, our roadmap includes an easy-to-use fault orchestration interface. We&#x27;re planning other cool features, such as Chaos Mesh Verifier and Chaos Mesh Cloud.</p><p>If any of these sound interesting to you, join us in building a world class Chaos Engineering platform. May our applications dance in chaos on Kubernetes!</p><p>If you find a bug or think something is missing, feel free to file an <a href="https://github.com/chaos-mesh/chaos-mesh/issues" target="_blank" rel="noopener noreferrer">issue</a>, open a PR, or join us on the #sig-chaos-mesh channel in the <a href="https://chaos-mesh.org/tidbslack" target="_blank" rel="noopener noreferrer">TiDB Community</a> slack workspace.</p><p>GitHub: <a href="https://github.com/chaos-mesh/chaos-mesh" target="_blank" rel="noopener noreferrer">https://github.com/chaos-mesh/chaos-mesh</a></p></section><footer class="row margin-vert--lg"><div class="col"><strong>Tags:</strong><a class="margin-horiz--sm" href="/blog/tags/chaos-mesh">Chaos Mesh</a><a class="margin-horiz--sm" href="/blog/tags/chaos-engineering">Chaos Engineering</a><a class="margin-horiz--sm" href="/blog/tags/kubernetes">Kubernetes</a></div></footer></article><div><a href="https://github.com/chaos-mesh/chaos-mesh/edit/master/website/blog/2020-01-15-chaos-mesh-your-chaos-engineering-solution.md" target="_blank" rel="noreferrer noopener"><svg fill="currentColor" height="1.2em" width="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 40 40" style="margin-right:0.3em;vertical-align:sub"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="margin-vert--xl"><nav class="pagination-nav" aria-label="Blog post page navigation"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/blog/run_your_first_chaos_experiment"><div class="pagination-nav__sublabel">Newer Post</div><div class="pagination-nav__label">« Run Your First Chaos Experiment in 10 Minutes</div></a></div><div class="pagination-nav__item pagination-nav__item--next"></div></nav></div></div><div class="col col--2"><div class="tableOfContents_3SO_"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#why-chaos-mesh" class="table-of-contents__link">Why Chaos Mesh?</a></li><li><a href="#what-can-chaos-mesh-do" class="table-of-contents__link">What can Chaos Mesh do?</a></li><li><a href="#design-principles" class="table-of-contents__link">Design principles</a><ul><li><a href="#easy-to-use" class="table-of-contents__link">Easy to use</a></li><li><a href="#scalable" class="table-of-contents__link">Scalable</a></li><li><a href="#designed-for-kubernetes" class="table-of-contents__link">Designed for Kubernetes</a></li></ul></li><li><a href="#customresourcedefinitions-design" class="table-of-contents__link">CustomResourceDefinitions design</a></li><li><a href="#how-does-chaos-mesh-work" class="table-of-contents__link">How does Chaos Mesh work?</a></li><li><a href="#running-chaos" class="table-of-contents__link">Running chaos</a><ul><li><a href="#preparing-the-environment" class="table-of-contents__link">Preparing the environment</a></li><li><a href="#running-chaos-using-a-yaml-file" class="table-of-contents__link">Running chaos using a YAML file</a></li><li><a href="#running-chaos-using-the-kubernetes-api" class="table-of-contents__link">Running chaos using the Kubernetes API</a></li></ul></li><li><a href="#what-does-the-future-hold" class="table-of-contents__link">What does the future hold?</a></li></ul></div></div></div></div></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Documentation</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/installation/installation">Getting Started</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/user_guides/run_chaos_experiment">User Guides</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a href="https://twitter.com/chaos_mesh" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">More</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/chaos-mesh/chaos-mesh" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub</a></li></ul></div></div><div class="text--center"><div><br><strong>© Chaos Mesh® Authors 2020 | Documentation Distributed under CC-BY-4.0 </strong><br><br>© 2020 The Linux Foundation. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage/"> Trademark Usage</a> page.</div></div></div></footer></div>
 <script src="/styles.b43e97a4.js"></script>
-<script src="/runtime~main.2c2c824e.js"></script>
+<script src="/runtime~main.32b31682.js"></script>
 <script src="/main.9bc606a4.js"></script>
 <script src="/1.1d920afd.js"></script>
 <script src="/2.2cf863d7.js"></script>
-<script src="/0ed4ff67.15bf95c2.js"></script>
+<script src="/0ed4ff67.e2d0d3de.js"></script>
 <script src="/1be78505.4906242b.js"></script>
-<script src="/1e924268.e1dc4f22.js"></script>
-<script src="/3220db10.45605dbc.js"></script>
-<script src="/392146af.25bebdce.js"></script>
-<script src="/3aecab64.8a0ccd41.js"></script>
-<script src="/42852643.e8e8362a.js"></script>
+<script src="/1e924268.914c1cdc.js"></script>
+<script src="/3220db10.e2f04ae6.js"></script>
+<script src="/392146af.31f4f276.js"></script>
+<script src="/3aecab64.21409ac8.js"></script>
+<script src="/42852643.63298fc3.js"></script>
 <script src="/6875c492.f3d1e663.js"></script>
-<script src="/6c5c66fd.bf39096b.js"></script>
-<script src="/9156c872.41f39a1f.js"></script>
-<script src="/9ecd795e.8fe2cd81.js"></script>
+<script src="/6c5c66fd.886faa46.js"></script>
+<script src="/9156c872.aead511d.js"></script>
+<script src="/9ecd795e.5f587114.js"></script>
 <script src="/a6aa9e1f.00b54a9c.js"></script>
-<script src="/bf1bff84.560ba245.js"></script>
-<script src="/c4f5d8e4.4c680263.js"></script>
-<script src="/d4668d37.6bc7f49a.js"></script>
-<script src="/f544d37c.014639cf.js"></script>
+<script src="/bf1bff84.04a18787.js"></script>
+<script src="/c4f5d8e4.88afaff4.js"></script>
+<script src="/d4668d37.58ab23c7.js"></script>
+<script src="/f544d37c.f2543bcc.js"></script>
 <script src="/99.3ca99be9.js"></script>
 <script src="/3cf74380.3284e823.js"></script>
 </body>
