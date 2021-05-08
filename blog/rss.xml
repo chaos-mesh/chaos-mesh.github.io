@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Chaos Mesh® Blog</title>
+        <link>https://chaos-mesh.org/blog</link>
+        <description>Chaos Mesh® Blog</description>
+        <lastBuildDate>Fri, 05 Feb 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Celebrating One Year of Chaos Mesh: Looking Back and Ahead]]></title>
+            <link>https://chaos-mesh.org/blog/celebrating-one-year-of-chaos-mesh-looking-back-and-ahead</link>
+            <guid>/celebrating-one-year-of-chaos-mesh-looking-back-and-ahead</guid>
+            <pubDate>Fri, 05 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Celebrating One Year of Chaos Mesh: Looking Back and Ahead]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How to Simulate I/O Faults at Runtime]]></title>
+            <link>https://chaos-mesh.org/blog/how-to-simulate-io-faults-at-runtime</link>
+            <guid>/how-to-simulate-io-faults-at-runtime</guid>
+            <pubDate>Fri, 08 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chaos Engineering - How to simulate I/O faults at runtime]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How a Top Game Company Uses Chaos Engineering to Improve Testing]]></title>
+            <link>https://chaos-mesh.org/blog/how-a-top-game-company-uses-chaos-engineering-to-improve-testing</link>
+            <guid>/how-a-top-game-company-uses-chaos-engineering-to-improve-testing</guid>
+            <pubDate>Thu, 26 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[How-a-Top-Game-Company-Uses-Chaos-Engineering-to-Improve-Testing]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Chaos Engineering - Breaking things Intentionally]]></title>
+            <link>https://chaos-mesh.org/blog/chaos-engineering-breaking-things-intentionally</link>
+            <guid>/chaos-engineering-breaking-things-intentionally</guid>
+            <pubDate>Fri, 30 Oct 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chaos-Engineering-Breaking-things-Intentionally]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Chaos Mesh X Hacktoberfest 2020 - An Invitation to Open Source]]></title>
+            <link>https://chaos-mesh.org/blog/chaos-mesh-x-hacktoberfest-2020</link>
+            <guid>/chaos-mesh-x-hacktoberfest-2020</guid>
+            <pubDate>Wed, 14 Oct 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chaos-Mesh-X-Hacktoberfest-An-Invitation-to-Open-Source]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Chaos Mesh 1.0: Chaos Engineering on Kubernetes Made Easier]]></title>
+            <link>https://chaos-mesh.org/blog/chaos-mesh-1.0-chaos-engineering-on-kubernetes-made-easier</link>
+            <guid>/chaos-mesh-1.0-chaos-engineering-on-kubernetes-made-easier</guid>
+            <pubDate>Fri, 25 Sep 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chaos-Mesh-1.0 - Chaos-Engineering-on-Kubernetes-Made-Easier]]></description>
+        </item>
+        <item>
+            <title><![CDATA[chaos-mesh-action: Integrate Chaos Engineering into Your CI]]></title>
+            <link>https://chaos-mesh.org/blog/chaos-mesh-action-integrate-chaos-engineering-into-your-ci</link>
+            <guid>/chaos-mesh-action-integrate-chaos-engineering-into-your-ci</guid>
+            <pubDate>Fri, 18 Sep 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[chaos-mesh-action - Integrate Chaos Engineering into Your CI]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Building an Automated Testing Framework Based on Chaos Mesh® and Argo]]></title>
+            <link>https://chaos-mesh.org/blog/building_automated_testing_framework</link>
+            <guid>/building_automated_testing_framework</guid>
+            <pubDate>Fri, 14 Aug 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[TiPocket - Automated Testing Framework]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Chaos Mesh® Joins CNCF as a Sandbox Project]]></title>
+            <link>https://chaos-mesh.org/blog/chaos-mesh-join-cncf-sandbox-project</link>
+            <guid>/chaos-mesh-join-cncf-sandbox-project</guid>
+            <pubDate>Tue, 28 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chaos Mesh Join CNCF as Sandbox Project]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Simulating Clock Skew in K8s Without Affecting Other Containers on the Node]]></title>
+            <link>https://chaos-mesh.org/blog/simulating-clock-skew-in-k8s-without-affecting-other-containers-on-node</link>
+            <guid>/simulating-clock-skew-in-k8s-without-affecting-other-containers-on-node</guid>
+            <pubDate>Mon, 20 Apr 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Clock synchronization in distributed system]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Run Your First Chaos Experiment in 10 Minutes]]></title>
+            <link>https://chaos-mesh.org/blog/run_your_first_chaos_experiment</link>
+            <guid>/run_your_first_chaos_experiment</guid>
+            <pubDate>Wed, 18 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Run your first chaos experiment in 10 minutes]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Chaos Mesh - Your Chaos Engineering Solution for System Resiliency on Kubernetes]]></title>
+            <link>https://chaos-mesh.org/blog/chaos_mesh_your_chaos_engineering_solution</link>
+            <guid>/chaos_mesh_your_chaos_engineering_solution</guid>
+            <pubDate>Wed, 15 Jan 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chaos Engineering]]></description>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://chaos-mesh.org/blog</id>
+    <title>Chaos Mesh® Blog</title>
+    <updated>2021-02-05T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://chaos-mesh.org/blog"/>
+    <subtitle>Chaos Mesh® Blog</subtitle>
+    <icon>https://chaos-mesh.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Celebrating One Year of Chaos Mesh: Looking Back and Ahead]]></title>
+        <id>/celebrating-one-year-of-chaos-mesh-looking-back-and-ahead</id>
+        <link href="https://chaos-mesh.org/blog/celebrating-one-year-of-chaos-mesh-looking-back-and-ahead"/>
+        <updated>2021-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Celebrating One Year of Chaos Mesh: Looking Back and Ahead]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Simulate I/O Faults at Runtime]]></title>
+        <id>/how-to-simulate-io-faults-at-runtime</id>
+        <link href="https://chaos-mesh.org/blog/how-to-simulate-io-faults-at-runtime"/>
+        <updated>2021-01-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chaos Engineering - How to simulate I/O faults at runtime]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How a Top Game Company Uses Chaos Engineering to Improve Testing]]></title>
+        <id>/how-a-top-game-company-uses-chaos-engineering-to-improve-testing</id>
+        <link href="https://chaos-mesh.org/blog/how-a-top-game-company-uses-chaos-engineering-to-improve-testing"/>
+        <updated>2020-11-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How-a-Top-Game-Company-Uses-Chaos-Engineering-to-Improve-Testing]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chaos Engineering - Breaking things Intentionally]]></title>
+        <id>/chaos-engineering-breaking-things-intentionally</id>
+        <link href="https://chaos-mesh.org/blog/chaos-engineering-breaking-things-intentionally"/>
+        <updated>2020-10-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chaos-Engineering-Breaking-things-Intentionally]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chaos Mesh X Hacktoberfest 2020 - An Invitation to Open Source]]></title>
+        <id>/chaos-mesh-x-hacktoberfest-2020</id>
+        <link href="https://chaos-mesh.org/blog/chaos-mesh-x-hacktoberfest-2020"/>
+        <updated>2020-10-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chaos-Mesh-X-Hacktoberfest-An-Invitation-to-Open-Source]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chaos Mesh 1.0: Chaos Engineering on Kubernetes Made Easier]]></title>
+        <id>/chaos-mesh-1.0-chaos-engineering-on-kubernetes-made-easier</id>
+        <link href="https://chaos-mesh.org/blog/chaos-mesh-1.0-chaos-engineering-on-kubernetes-made-easier"/>
+        <updated>2020-09-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chaos-Mesh-1.0 - Chaos-Engineering-on-Kubernetes-Made-Easier]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[chaos-mesh-action: Integrate Chaos Engineering into Your CI]]></title>
+        <id>/chaos-mesh-action-integrate-chaos-engineering-into-your-ci</id>
+        <link href="https://chaos-mesh.org/blog/chaos-mesh-action-integrate-chaos-engineering-into-your-ci"/>
+        <updated>2020-09-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[chaos-mesh-action - Integrate Chaos Engineering into Your CI]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building an Automated Testing Framework Based on Chaos Mesh® and Argo]]></title>
+        <id>/building_automated_testing_framework</id>
+        <link href="https://chaos-mesh.org/blog/building_automated_testing_framework"/>
+        <updated>2020-08-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TiPocket - Automated Testing Framework]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chaos Mesh® Joins CNCF as a Sandbox Project]]></title>
+        <id>/chaos-mesh-join-cncf-sandbox-project</id>
+        <link href="https://chaos-mesh.org/blog/chaos-mesh-join-cncf-sandbox-project"/>
+        <updated>2020-07-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chaos Mesh Join CNCF as Sandbox Project]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simulating Clock Skew in K8s Without Affecting Other Containers on the Node]]></title>
+        <id>/simulating-clock-skew-in-k8s-without-affecting-other-containers-on-node</id>
+        <link href="https://chaos-mesh.org/blog/simulating-clock-skew-in-k8s-without-affecting-other-containers-on-node"/>
+        <updated>2020-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Clock synchronization in distributed system]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Run Your First Chaos Experiment in 10 Minutes]]></title>
+        <id>/run_your_first_chaos_experiment</id>
+        <link href="https://chaos-mesh.org/blog/run_your_first_chaos_experiment"/>
+        <updated>2020-03-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Run your first chaos experiment in 10 minutes]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chaos Mesh - Your Chaos Engineering Solution for System Resiliency on Kubernetes]]></title>
+        <id>/chaos_mesh_your_chaos_engineering_solution</id>
+        <link href="https://chaos-mesh.org/blog/chaos_mesh_your_chaos_engineering_solution"/>
+        <updated>2020-01-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chaos Engineering]]></summary>
+    </entry>
+</feed>
