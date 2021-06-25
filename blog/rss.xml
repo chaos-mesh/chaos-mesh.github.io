@@ -4,9 +4,16 @@
         <title>Chaos Mesh® Blog</title>
         <link>https://chaos-mesh.org/blog</link>
         <description>Chaos Mesh® Blog</description>
-        <lastBuildDate>Fri, 05 Feb 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 20 Jun 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[From a Newbie in Software Engineering to a Graduated LFX-Mentee]]></title>
+            <link>https://chaos-mesh.org/blog/lfx-mentorship-enriching-awschaos</link>
+            <guid>/lfx-mentorship-enriching-awschaos</guid>
+            <pubDate>Sun, 20 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[LFX Mentorship Experience]]></description>
+        </item>
         <item>
             <title><![CDATA[Celebrating One Year of Chaos Mesh: Looking Back and Ahead]]></title>
             <link>https://chaos-mesh.org/blog/celebrating-one-year-of-chaos-mesh-looking-back-and-ahead</link>

@@ -1,0 +1,1 @@
+(self.webpackChunkchaos_mesh_website=self.webpackChunkchaos_mesh_website||[]).push([[1559],{2384:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"aws-chaos","name":"aws chaos","count":1,"permalink":"/blog/tags/aws-chaos"}')}}]);
