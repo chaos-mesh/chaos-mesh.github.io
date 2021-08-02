@@ -1,1 +1,0 @@
-(self.webpackChunkchaos_mesh_website=self.webpackChunkchaos_mesh_website||[]).push([[3570],{1169:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"lfx-mentorship","name":"lfx mentorship","count":1,"permalink":"/blog/tags/lfx-mentorship"}')}}]);
