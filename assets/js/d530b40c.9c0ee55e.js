@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkchaos_mesh_website=self.webpackChunkchaos_mesh_website||[]).push([[9571],{28:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"cncf","name":"cncf","count":1,"permalink":"/blog/tags/cncf"}')}}]);

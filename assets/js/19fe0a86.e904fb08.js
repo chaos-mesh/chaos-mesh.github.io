@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaos_mesh_website=self.webpackChunkchaos_mesh_website||[]).push([[5722],{42872:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"stress-chaos","name":"stresschaos","count":1,"permalink":"/blog/tags/stress-chaos"}')}}]);
