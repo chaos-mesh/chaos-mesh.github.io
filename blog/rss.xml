@@ -4,9 +4,16 @@
         <title>Chaos Mesh® Blog</title>
         <link>https://chaos-mesh.org/blog</link>
         <description>Chaos Mesh® Blog</description>
-        <lastBuildDate>Fri, 09 Jul 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Chaos Mesh® Celebrates 100th Contributor]]></title>
+            <link>https://chaos-mesh.org/blog/chaos-mesh-celebrates-100th-contributor</link>
+            <guid>/chaos-mesh-celebrates-100th-contributor</guid>
+            <pubDate>Thu, 05 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chaos Mesh Celebrates 100th Contributor]]></description>
+        </item>
         <item>
             <title><![CDATA[Chaos Mesh® Q&A]]></title>
             <link>https://chaos-mesh.org/blog/chaos-mesh-q&amp;a</link>
