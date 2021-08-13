@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chaos-mesh.org/blog</id>
     <title>Chaos Mesh® Blog</title>
-    <updated>2021-08-05T00:00:00.000Z</updated>
+    <updated>2021-08-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chaos-mesh.org/blog"/>
     <subtitle>Chaos Mesh® Blog</subtitle>
     <icon>https://chaos-mesh.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Chaos Mesh 2.0: To a Chaos Engineering Ecology]]></title>
+        <id>/chaos-mesh-2.0-to-a-chaos-engineering-ecology</id>
+        <link href="https://chaos-mesh.org/blog/chaos-mesh-2.0-to-a-chaos-engineering-ecology"/>
+        <updated>2021-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chaos Mesh 2.0: To a Chaos Engineering Ecology]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chaos Mesh® Celebrates 100th Contributor]]></title>
         <id>/chaos-mesh-celebrates-100th-contributor</id>
