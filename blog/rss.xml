@@ -4,9 +4,16 @@
         <title>Chaos Mesh® Blog</title>
         <link>https://chaos-mesh.org/blog</link>
         <description>Chaos Mesh® Blog</description>
-        <lastBuildDate>Fri, 20 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Securing Online Gaming: Combine Chaos Engineering with DevOps Practices]]></title>
+            <link>https://chaos-mesh.org/blog/Securing-Online-Gaming-Combine-Chaos-Engineering-with-DevOps-Practices</link>
+            <guid>/Securing-Online-Gaming-Combine-Chaos-Engineering-with-DevOps-Practices</guid>
+            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Securing Online Gaming: Combine Chaos Engineering with DevOps Practices]]></description>
+        </item>
         <item>
             <title><![CDATA[How Chaos Mesh Helps Apache APISIX Improve System Stability]]></title>
             <link>https://chaos-mesh.org/blog/How-Chaos-Mesh-Helps-Apache-APISIX-Improve-System-Stability</link>
