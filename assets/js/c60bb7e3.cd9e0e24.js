@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkchaos_mesh_website=self.webpackChunkchaos_mesh_website||[]).push([[8264],{47144:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"use-case","name":"use case","count":1,"permalink":"/blog/tags/use-case"}')}}]);

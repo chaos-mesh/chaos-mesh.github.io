@@ -13,6 +13,9 @@
         <link href="https://chaos-mesh.org/blog/Securing-Online-Gaming-Combine-Chaos-Engineering-with-DevOps-Practices"/>
         <updated>2021-08-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Securing Online Gaming: Combine Chaos Engineering with DevOps Practices]]></summary>
+        <author>
+            <name>Zhaojun Wu</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[How Chaos Mesh Helps Apache APISIX Improve System Stability]]></title>
@@ -20,6 +23,10 @@
         <link href="https://chaos-mesh.org/blog/How-Chaos-Mesh-Helps-Apache-APISIX-Improve-System-Stability"/>
         <updated>2021-08-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Chaos Mesh helps Apache APISIX improve system stability]]></summary>
+        <author>
+            <name>Shuyang Wu</name>
+            <uri>https://github.com/Yiyiyimu</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Chaos Mesh 2.0: To a Chaos Engineering Ecology]]></title>
@@ -27,6 +34,10 @@
         <link href="https://chaos-mesh.org/blog/chaos-mesh-2.0-to-a-chaos-engineering-ecology"/>
         <updated>2021-08-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Chaos Mesh 2.0: To a Chaos Engineering Ecology]]></summary>
+        <author>
+            <name>Chaos Mesh Maintainers</name>
+            <uri>https://github.com/chaos-mesh</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Chaos Mesh® Celebrates 100th Contributor]]></title>
@@ -34,6 +45,10 @@
         <link href="https://chaos-mesh.org/blog/chaos-mesh-celebrates-100th-contributor"/>
         <updated>2021-08-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Chaos Mesh Celebrates 100th Contributor]]></summary>
+        <author>
+            <name>Chaos Mesh Maintainers</name>
+            <uri>https://github.com/chaos-mesh/chaos-mesh/blob/master/MAINTAINERS.md</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Chaos Mesh® Q&A]]></title>
@@ -41,6 +56,10 @@
         <link href="https://chaos-mesh.org/blog/chaos-mesh-q&amp;a"/>
         <updated>2021-07-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Chaos Mesh Q&A]]></summary>
+        <author>
+            <name>Chaos Mesh Community</name>
+            <uri>https://github.com/chaos-mesh</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Securing tenant namespaces using restrict authorization feature in Chaos Mesh®]]></title>
@@ -48,6 +67,10 @@
         <link href="https://chaos-mesh.org/blog/securing-tenant-namespaces-using-restrict-authorization-feature"/>
         <updated>2021-07-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Chaos engineering tools]]></summary>
+        <author>
+            <name>Anurag Paliwal</name>
+            <uri>https://github.com/anuragpaliwal80</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[How to efficiently stress test Pod memory]]></title>
@@ -55,6 +78,10 @@
         <link href="https://chaos-mesh.org/blog/how-to-efficiently-stress-test-pod-memory"/>
         <updated>2021-07-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[banner]]></summary>
+        <author>
+            <name>Yinghao Wang</name>
+            <uri>https://github.com/AsterNighT</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Chaos Mesh Remake: One Step Closer toward Chaos as a Service]]></title>
@@ -62,6 +89,10 @@
         <link href="https://chaos-mesh.org/blog/chaos-mesh-remake-one-step-closer-towards-chaos-as-a-service"/>
         <updated>2021-06-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Chaos engineering tools]]></summary>
+        <author>
+            <name>Chang Yu, Xiang Wang</name>
+            <uri>https://github.com/chaos-mesh/chaos-mesh/blob/master/MAINTAINERS.md</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[From a Newbie in Software Engineering to a Graduated LFX-Mentee]]></title>
@@ -69,6 +100,10 @@
         <link href="https://chaos-mesh.org/blog/lfx-mentorship-enriching-awschaos"/>
         <updated>2021-06-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[LFX Mentorship Experience]]></summary>
+        <author>
+            <name>Debabrata Panigrahi</name>
+            <uri>https://github.com/Debanitrkl</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Celebrating One Year of Chaos Mesh: Looking Back and Ahead]]></title>
@@ -76,6 +111,10 @@
         <link href="https://chaos-mesh.org/blog/celebrating-one-year-of-chaos-mesh-looking-back-and-ahead"/>
         <updated>2021-02-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Celebrating One Year of Chaos Mesh: Looking Back and Ahead]]></summary>
+        <author>
+            <name>Cwen Yin, Calvin Weng</name>
+            <uri>https://github.com/chaos-mesh/chaos-mesh/blob/master/MAINTAINERS.md</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[How to Simulate I/O Faults at Runtime]]></title>
@@ -83,6 +122,10 @@
         <link href="https://chaos-mesh.org/blog/how-to-simulate-io-faults-at-runtime"/>
         <updated>2021-01-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Chaos Engineering - How to simulate I/O faults at runtime]]></summary>
+        <author>
+            <name>Keao Yang</name>
+            <uri>https://github.com/YangKeao</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[How a Top Game Company Uses Chaos Engineering to Improve Testing]]></title>
@@ -90,6 +133,9 @@
         <link href="https://chaos-mesh.org/blog/how-a-top-game-company-uses-chaos-engineering-to-improve-testing"/>
         <updated>2020-11-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[How-a-Top-Game-Company-Uses-Chaos-Engineering-to-Improve-Testing]]></summary>
+        <author>
+            <name>Hui Zhang @ Fuxi Lab, NetEase</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Chaos Engineering - Breaking things Intentionally]]></title>
@@ -97,6 +143,10 @@
         <link href="https://chaos-mesh.org/blog/chaos-engineering-breaking-things-intentionally"/>
         <updated>2020-10-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Chaos-Engineering-Breaking-things-Intentionally]]></summary>
+        <author>
+            <name>Manish Dangi</name>
+            <uri>https://www.linkedin.com/in/manishdangi/</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Chaos Mesh X Hacktoberfest 2020 - An Invitation to Open Source]]></title>
@@ -104,6 +154,10 @@
         <link href="https://chaos-mesh.org/blog/chaos-mesh-x-hacktoberfest-2020"/>
         <updated>2020-10-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Chaos-Mesh-X-Hacktoberfest-An-Invitation-to-Open-Source]]></summary>
+        <author>
+            <name>Chaos Mesh Community</name>
+            <uri>https://github.com/chaos-mesh</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Chaos Mesh 1.0: Chaos Engineering on Kubernetes Made Easier]]></title>
@@ -111,6 +165,10 @@
         <link href="https://chaos-mesh.org/blog/chaos-mesh-1.0-chaos-engineering-on-kubernetes-made-easier"/>
         <updated>2020-09-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Chaos-Mesh-1.0 - Chaos-Engineering-on-Kubernetes-Made-Easier]]></summary>
+        <author>
+            <name>Chaos Mesh Maintainers</name>
+            <uri>https://github.com/chaos-mesh</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[chaos-mesh-action: Integrate Chaos Engineering into Your CI]]></title>
@@ -118,6 +176,10 @@
         <link href="https://chaos-mesh.org/blog/chaos-mesh-action-integrate-chaos-engineering-into-your-ci"/>
         <updated>2020-09-18T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[chaos-mesh-action - Integrate Chaos Engineering into Your CI]]></summary>
+        <author>
+            <name>Xiang Wang</name>
+            <uri>https://github.com/WangXiangUSTC</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Building an Automated Testing Framework Based on Chaos Mesh® and Argo]]></title>
@@ -125,6 +187,10 @@
         <link href="https://chaos-mesh.org/blog/building_automated_testing_framework"/>
         <updated>2020-08-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[TiPocket - Automated Testing Framework]]></summary>
+        <author>
+            <name>Ben Ye, Chengwen Yin</name>
+            <uri>https://github.com/chaos-mesh/chaos-mesh/blob/master/MAINTAINERS.md</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Chaos Mesh® Joins CNCF as a Sandbox Project]]></title>
@@ -132,6 +198,10 @@
         <link href="https://chaos-mesh.org/blog/chaos-mesh-join-cncf-sandbox-project"/>
         <updated>2020-07-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Chaos Mesh Join CNCF as Sandbox Project]]></summary>
+        <author>
+            <name>Chaos Mesh Authors</name>
+            <uri>https://github.com/chaos-mesh</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Simulating Clock Skew in K8s Without Affecting Other Containers on the Node]]></title>
@@ -139,6 +209,10 @@
         <link href="https://chaos-mesh.org/blog/simulating-clock-skew-in-k8s-without-affecting-other-containers-on-node"/>
         <updated>2020-04-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Clock synchronization in distributed system]]></summary>
+        <author>
+            <name>Cwen Yin</name>
+            <uri>https://github.com/cwen0</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Run Your First Chaos Experiment in 10 Minutes]]></title>
@@ -146,6 +220,10 @@
         <link href="https://chaos-mesh.org/blog/run_your_first_chaos_experiment"/>
         <updated>2020-03-18T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Run your first chaos experiment in 10 minutes]]></summary>
+        <author>
+            <name>Cwen Yin</name>
+            <uri>https://github.com/cwen0</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Chaos Mesh - Your Chaos Engineering Solution for System Resiliency on Kubernetes]]></title>
@@ -153,5 +231,9 @@
         <link href="https://chaos-mesh.org/blog/chaos_mesh_your_chaos_engineering_solution"/>
         <updated>2020-01-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Chaos Engineering]]></summary>
+        <author>
+            <name>Cwen Yin</name>
+            <uri>https://github.com/cwen0</uri>
+        </author>
     </entry>
 </feed>
