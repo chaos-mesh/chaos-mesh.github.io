@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chaos-mesh.org/blog</id>
     <title>Chaos Mesh® Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2021-09-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chaos-mesh.org/blog"/>
     <subtitle>Chaos Mesh® Blog</subtitle>
     <icon>https://chaos-mesh.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[How to run chaos experiments on your physical machine]]></title>
+        <id>/run-chaos-experiments-on-physical-machines</id>
+        <link href="https://chaos-mesh.org/blog/run-chaos-experiments-on-physical-machines"/>
+        <updated>2021-09-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How to run chaos experiments on your physical machine]]></summary>
+        <author>
+            <name>Xiang Wang</name>
+            <uri>https://github.com/WangXiangUSTC</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Securing Online Gaming: Combine Chaos Engineering with DevOps Practices]]></title>
         <id>/Securing-Online-Gaming-Combine-Chaos-Engineering-with-DevOps-Practices</id>
