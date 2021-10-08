@@ -4,9 +4,16 @@
         <title>Chaos Mesh® Blog</title>
         <link>https://chaos-mesh.org/blog</link>
         <description>Chaos Mesh® Blog</description>
-        <lastBuildDate>Wed, 15 Sep 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Sep 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Hacktoberfest 2021: hack with Chaos Mesh!]]></title>
+            <link>https://chaos-mesh.org/blog/chaos-mesh-hacktoberfest-2021</link>
+            <guid>/chaos-mesh-hacktoberfest-2021</guid>
+            <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chaos Mesh x Hacktoberfest 2021]]></description>
+        </item>
         <item>
             <title><![CDATA[How to run chaos experiments on your physical machine]]></title>
             <link>https://chaos-mesh.org/blog/run-chaos-experiments-on-physical-machines</link>

@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chaos-mesh.org/blog</id>
     <title>Chaos Mesh® Blog</title>
-    <updated>2021-09-15T00:00:00.000Z</updated>
+    <updated>2021-09-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chaos-mesh.org/blog"/>
     <subtitle>Chaos Mesh® Blog</subtitle>
     <icon>https://chaos-mesh.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Hacktoberfest 2021: hack with Chaos Mesh!]]></title>
+        <id>/chaos-mesh-hacktoberfest-2021</id>
+        <link href="https://chaos-mesh.org/blog/chaos-mesh-hacktoberfest-2021"/>
+        <updated>2021-09-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chaos Mesh x Hacktoberfest 2021]]></summary>
+        <author>
+            <name>Chaos Mesh Community</name>
+            <uri>https://github.com/chaos-mesh</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How to run chaos experiments on your physical machine]]></title>
         <id>/run-chaos-experiments-on-physical-machines</id>
