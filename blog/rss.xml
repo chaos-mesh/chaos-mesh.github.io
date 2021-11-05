@@ -43,21 +43,21 @@
             <description><![CDATA[Chaos Mesh 2.0: To a Chaos Engineering Ecology]]></description>
         </item>
         <item>
-            <title><![CDATA[Chaos Mesh® Celebrates 100th Contributor]]></title>
+            <title><![CDATA[Chaos Mesh Celebrates 100th Contributor]]></title>
             <link>https://chaos-mesh.org/blog/chaos-mesh-celebrates-100th-contributor</link>
             <guid>/chaos-mesh-celebrates-100th-contributor</guid>
             <pubDate>Thu, 05 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Chaos Mesh Celebrates 100th Contributor]]></description>
         </item>
         <item>
-            <title><![CDATA[Chaos Mesh® Q&A]]></title>
+            <title><![CDATA[Chaos Mesh Q&A]]></title>
             <link>https://chaos-mesh.org/blog/chaos-mesh-q&amp;a</link>
             <guid>/chaos-mesh-q&amp;a</guid>
             <pubDate>Fri, 09 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Chaos Mesh Q&A]]></description>
         </item>
         <item>
-            <title><![CDATA[Securing tenant namespaces using restrict authorization feature in Chaos Mesh®]]></title>
+            <title><![CDATA[Securing tenant namespaces using restrict authorization feature in Chaos Mesh]]></title>
             <link>https://chaos-mesh.org/blog/securing-tenant-namespaces-using-restrict-authorization-feature</link>
             <guid>/securing-tenant-namespaces-using-restrict-authorization-feature</guid>
             <pubDate>Wed, 07 Jul 2021 00:00:00 GMT</pubDate>
@@ -134,14 +134,14 @@
             <description><![CDATA[chaos-mesh-action - Integrate Chaos Engineering into Your CI]]></description>
         </item>
         <item>
-            <title><![CDATA[Building an Automated Testing Framework Based on Chaos Mesh® and Argo]]></title>
+            <title><![CDATA[Building an Automated Testing Framework Based on Chaos Mesh and Argo]]></title>
             <link>https://chaos-mesh.org/blog/building_automated_testing_framework</link>
             <guid>/building_automated_testing_framework</guid>
             <pubDate>Fri, 14 Aug 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[TiPocket - Automated Testing Framework]]></description>
         </item>
         <item>
-            <title><![CDATA[Chaos Mesh® Joins CNCF as a Sandbox Project]]></title>
+            <title><![CDATA[Chaos Mesh Joins CNCF as a Sandbox Project]]></title>
             <link>https://chaos-mesh.org/blog/chaos-mesh-join-cncf-sandbox-project</link>
             <guid>/chaos-mesh-join-cncf-sandbox-project</guid>
             <pubDate>Tue, 28 Jul 2020 00:00:00 GMT</pubDate>

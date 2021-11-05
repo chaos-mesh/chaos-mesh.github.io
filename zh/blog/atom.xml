@@ -62,7 +62,7 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Chaos Mesh® Celebrates 100th Contributor]]></title>
+        <title type="html"><![CDATA[Chaos Mesh Celebrates 100th Contributor]]></title>
         <id>/chaos-mesh-celebrates-100th-contributor</id>
         <link href="https://chaos-mesh.org/zh/blog/chaos-mesh-celebrates-100th-contributor"/>
         <updated>2021-08-05T00:00:00.000Z</updated>
@@ -73,7 +73,7 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Chaos Mesh® Q&A]]></title>
+        <title type="html"><![CDATA[Chaos Mesh Q&A]]></title>
         <id>/chaos-mesh-q&amp;a</id>
         <link href="https://chaos-mesh.org/zh/blog/chaos-mesh-q&amp;a"/>
         <updated>2021-07-09T00:00:00.000Z</updated>
@@ -84,7 +84,7 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Securing tenant namespaces using restrict authorization feature in Chaos Mesh®]]></title>
+        <title type="html"><![CDATA[Securing tenant namespaces using restrict authorization feature in Chaos Mesh]]></title>
         <id>/securing-tenant-namespaces-using-restrict-authorization-feature</id>
         <link href="https://chaos-mesh.org/zh/blog/securing-tenant-namespaces-using-restrict-authorization-feature"/>
         <updated>2021-07-07T00:00:00.000Z</updated>
@@ -204,7 +204,7 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Building an Automated Testing Framework Based on Chaos Mesh® and Argo]]></title>
+        <title type="html"><![CDATA[Building an Automated Testing Framework Based on Chaos Mesh and Argo]]></title>
         <id>/building_automated_testing_framework</id>
         <link href="https://chaos-mesh.org/zh/blog/building_automated_testing_framework"/>
         <updated>2020-08-14T00:00:00.000Z</updated>
@@ -215,7 +215,7 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Chaos Mesh® Joins CNCF as a Sandbox Project]]></title>
+        <title type="html"><![CDATA[Chaos Mesh Joins CNCF as a Sandbox Project]]></title>
         <id>/chaos-mesh-join-cncf-sandbox-project</id>
         <link href="https://chaos-mesh.org/zh/blog/chaos-mesh-join-cncf-sandbox-project"/>
         <updated>2020-07-28T00:00:00.000Z</updated>
