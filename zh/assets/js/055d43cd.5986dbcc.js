@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaos_mesh_website=self.webpackChunkchaos_mesh_website||[]).push([[2811],{86371:function(e){e.exports=JSON.parse('{"allTagsPath":"/zh/blog/tags","slug":"/zh/blog/tags/kube-con","name":"KubeCon","count":1,"permalink":"/zh/blog/tags/kube-con"}')}}]);
