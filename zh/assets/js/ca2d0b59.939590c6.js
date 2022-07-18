@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkchaos_mesh_website=self.webpackChunkchaos_mesh_website||[]).push([[8138],{74717:function(s){s.exports=JSON.parse('{"allTagsPath":"/zh/blog/tags","slug":"/zh/blog/tags/tutorial","name":"Tutorial","count":1,"permalink":"/zh/blog/tags/tutorial"}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkchaos_mesh_website=self.webpackChunkchaos_mesh_website||[]).push([[6360],{92993:function(s){s.exports=JSON.parse('{"allTagsPath":"/zh/blog/tags","slug":"/zh/blog/tags/git-hub-action","name":"GitHub Action","count":1,"permalink":"/zh/blog/tags/git-hub-action"}')}}]);

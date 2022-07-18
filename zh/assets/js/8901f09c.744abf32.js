@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkchaos_mesh_website=self.webpackChunkchaos_mesh_website||[]).push([[8033],{57524:function(e){e.exports=JSON.parse('{"allTagsPath":"/zh/blog/tags","slug":"/zh/blog/tags/cloud-native","name":"Cloud Native","count":1,"permalink":"/zh/blog/tags/cloud-native"}')}}]);
