@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaos_mesh_website=self.webpackChunkchaos_mesh_website||[]).push([[91485],{22069:e=>{e.exports=JSON.parse('{"label":"Kubernetes","permalink":"/zh/blog/tags/kubernetes","allTagsPath":"/zh/blog/tags","count":4}')}}]);
