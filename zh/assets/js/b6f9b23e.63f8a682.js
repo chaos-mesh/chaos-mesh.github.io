@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaos_mesh_website=self.webpackChunkchaos_mesh_website||[]).push([[7449],{89588:s=>{s.exports=JSON.parse('{"label":"Stress Testing","permalink":"/zh/blog/tags/stress-testing","allTagsPath":"/zh/blog/tags","count":1}')}}]);

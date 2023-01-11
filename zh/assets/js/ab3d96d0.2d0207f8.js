@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaos_mesh_website=self.webpackChunkchaos_mesh_website||[]).push([[228],{98874:e=>{e.exports=JSON.parse('{"label":"event","permalink":"/zh/blog/tags/event","allTagsPath":"/zh/blog/tags","count":1}')}}]);
