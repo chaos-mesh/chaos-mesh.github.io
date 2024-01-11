@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkchaos_mesh_website=self.webpackChunkchaos_mesh_website||[]).push([[9661],{71481:(e,s,r)=>{r.r(s),r.d(s,{default:()=>i});r(50959);var a=r(45924),c=r(32905),h=r(45470),t=r(73797),u=r(50684),n=r(11527);function i(e){return(0,n.jsx)(c.FG,{className:(0,a.Z)(h.k.wrapper.docsPages),children:(0,n.jsx)(u.Z,{children:(0,t.H)(e.route.routes)})})}}}]);
