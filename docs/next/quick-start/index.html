@@ -15,7 +15,7 @@
 
 <link rel="preconnect" href="https://www.clarity.ms">
 <script>!function(t,e,n,c,r,s,a){t[n]=t[n]||function(){(t[n].q=t[n].q||[]).push(arguments)},(s=e.createElement(c)).async=1,s.src="https://www.clarity.ms/tag/lggqck9srz",(a=e.getElementsByTagName(c)[0]).parentNode.insertBefore(s,a)}(window,document,"clarity","script")</script><link rel="stylesheet" href="/assets/css/styles.748bbbe0.css">
-<script src="/assets/js/runtime~main.5bda1637.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.28fcc1c6.js" defer="defer"></script>
 <script src="/assets/js/main.d9570b0a.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -32,24 +32,8 @@
 </ul>
 <h2 class="anchor anchorWithHideOnScrollNavbar_uG6P" id="quick-installation">Quick installation<a href="#quick-installation" class="hash-link" aria-label="Direct link to Quick installation" title="Direct link to Quick installation">​</a></h2>
 <p>To install Chaos Mesh in a test environment, run the following script:</p>
-<!-- -->
-<div class="theme-admonition theme-admonition-note admonition_gCO2 alert alert--secondary"><div class="admonitionHeading_QG5k"><span class="admonitionIcon_DSbK"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_Bbal"><ul>
-<li>
-<p>If the current environment is <a href="https://kind.sigs.k8s.io/" target="_blank" rel="noopener noreferrer">kind</a>, add the <code>--local kind</code> parameter at the end of the script.</p>
-<!-- -->
-<p>If you want to specify a <code>kind</code> version, add the <code>--kind-version xx</code> parameter at the end of the script, for example:</p>
-<!-- -->
-</li>
-<li>
-<p>If the current environment is <a href="https://k3s.io/" target="_blank" rel="noopener noreferrer">K3s</a>, add the <code>--k3s</code> parameter at the end of the script.</p>
-<!-- -->
-</li>
-<li>
-<p>If the current environment is <a href="https://microk8s.io/" target="_blank" rel="noopener noreferrer">Microk8s</a>, add the <code>--microk8s</code> parameter at the end of the script.</p>
-<!-- -->
-</li>
-</ul></div></div>
-<p>After running this script, Chaos Mesh automatically installs the CustomResourceDefining (CRD) that matches the version, all required components, and related Service Account configurations.</p>
+<div class="tabs-container tabList_jQjR"><ul role="tablist" aria-orientation="horizontal" class="tabs"><li role="tab" tabindex="0" aria-selected="true" class="tabs__item tabItem_dzqc tabs__item--active">K8s</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_dzqc">kind</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_dzqc">K3s</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_dzqc">MicroK8s</li></ul><div class="margin-top--md"><div role="tabpanel" class="tabItem_wvL0"></div><div role="tabpanel" class="tabItem_wvL0" hidden=""><p>If you want to specify a <code>kind</code> version, add the <code>--kind-version xx</code> parameter at the end of the script, for example:</p></div><div role="tabpanel" class="tabItem_wvL0" hidden=""></div><div role="tabpanel" class="tabItem_wvL0" hidden=""></div></div></div>
+<p>After running, Chaos Mesh will automatically install the appropriate version of CustomResourceDefinitions and the required components.</p>
 <p>For more installation details, refer to the source code of the <a href="https://github.com/chaos-mesh/chaos-mesh/blob/master/install.sh" target="_blank" rel="noopener noreferrer"><code>install.sh</code></a>.</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_uG6P" id="verify-the-installation">Verify the installation<a href="#verify-the-installation" class="hash-link" aria-label="Direct link to Verify the installation" title="Direct link to Verify the installation">​</a></h2>
 <p>To check the running status of Chaos Mesh, execute the following command:</p>
