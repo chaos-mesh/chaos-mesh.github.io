@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaos_mesh_website=self.webpackChunkchaos_mesh_website||[]).push([[7254],{19891:e=>{e.exports=JSON.parse('{"label":"KubeCon","permalink":"/blog/tags/kube-con","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
