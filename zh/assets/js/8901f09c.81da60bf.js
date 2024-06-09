@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkchaos_mesh_website=self.webpackChunkchaos_mesh_website||[]).push([[6581],{25893:e=>{e.exports=JSON.parse('{"label":"Cloud Native","permalink":"/zh/blog/tags/cloud-native","allTagsPath":"/zh/blog/tags","count":1,"unlisted":false}')}}]);

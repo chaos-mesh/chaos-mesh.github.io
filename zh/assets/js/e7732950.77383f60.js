@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkchaos_mesh_website=self.webpackChunkchaos_mesh_website||[]).push([[4053],{48607:s=>{s.exports=JSON.parse('{"label":"Test Automation","permalink":"/zh/blog/tags/test-automation","allTagsPath":"/zh/blog/tags","count":1,"unlisted":false}')}}]);
