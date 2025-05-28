@@ -16,8 +16,8 @@
 <link rel="search" type="application/opensearchdescription+xml" title="Chaos Mesh" href="/opensearch.xml">
 
 <link rel="preconnect" href="https://www.clarity.ms">
-<script>!function(t,e,n,c,r,s,a){t[n]=t[n]||function(){(t[n].q=t[n].q||[]).push(arguments)},(s=e.createElement(c)).async=1,s.src="https://www.clarity.ms/tag/lggqck9srz",(a=e.getElementsByTagName(c)[0]).parentNode.insertBefore(s,a)}(window,document,"clarity","script")</script><link rel="stylesheet" href="/assets/css/styles.271230bd.css">
-<script src="/assets/js/runtime~main.d59fe71d.js" defer="defer"></script>
+<script>!function(t,e,n,c,r,s,a){t[n]=t[n]||function(){(t[n].q=t[n].q||[]).push(arguments)},(s=e.createElement(c)).async=1,s.src="https://www.clarity.ms/tag/lggqck9srz",(a=e.getElementsByTagName(c)[0]).parentNode.insertBefore(s,a)}(window,document,"clarity","script")</script><link rel="stylesheet" href="/assets/css/styles.1d74298d.css">
+<script src="/assets/js/runtime~main.63e7b4b3.js" defer="defer"></script>
 <script src="/assets/js/main.2377dbc0.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -40,7 +40,7 @@
 <p>Finally, restart Grafana to load the plugin.</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_PqLj" id="setup">Setup<a href="#setup" class="hash-link" aria-label="Direct link to Setup" title="Direct link to Setup">​</a></h2>
 <p>Once installed, go to <strong>Administration -&gt; Data sources</strong> and add Chaos Mesh, then go to the configuration page:</p>
-<p></p><figure><img decoding="async" loading="lazy" alt="Settings" src="/assets/images/settings-85481cae855e1d6764fb71a396fc037d.png" width="1500" height="1700" class="img_jNmF"><figcaption class="text--italic text--center" style="color:var(--ifm-color-content-secondary);font-size:0.875rem">Settings</figcaption></figure><p></p>
+<p></p><figure style="margin:0"><img decoding="async" loading="lazy" alt="Settings" src="/assets/images/settings-85481cae855e1d6764fb71a396fc037d.png" width="1500" height="1700" class="img_jNmF"><figcaption class="text--italic text--center" style="color:var(--ifm-color-content-secondary);font-size:0.875rem">Settings</figcaption></figure><p></p>
 <p>Assuming you have Chaos Mesh installed locally, the Chaos Dashboard will export the API on port <code>2333</code> by default. So, if you haven&#x27;t changed anything, you can fill in <code>http://localhost:2333</code>.</p>
 <p>Then use the <code>port-forward</code> command to make the API externally accessible:</p>
 <div class="language-shell codeBlockContainer_UJmc theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_qnrv"><pre tabindex="0" class="prism-code language-shell codeBlock_UKmm thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_Pz2H"><span class="token-line" style="color:#393A34"><span class="token plain">kubectl port-forward </span><span class="token parameter variable" style="color:#36acaa">-n</span><span class="token plain"> chaos-mesh svc/chaos-dashboard </span><span class="token number" style="color:#36acaa">2333</span><span class="token plain">:2333</span><br></span></code></pre><div class="buttonGroup_vP8B"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_wyCk" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_yjTM"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_QPf9"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
@@ -91,7 +91,7 @@
 <p>All of them will be passed as parameters to the <code>/api/events</code> API.</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_PqLj" id="variables">Variables<a href="#variables" class="hash-link" aria-label="Direct link to Variables" title="Direct link to Variables">​</a></h2>
 <p>The data source plugin supports adding query variables by different metrics:</p>
-<p></p><figure><img decoding="async" loading="lazy" alt="Variables" src="/assets/images/variables-eb628e7bff9c829d22fb57ec9961e7ba.png" width="1400" height="1540" class="img_jNmF"><figcaption class="text--italic text--center" style="color:var(--ifm-color-content-secondary);font-size:0.875rem">Variables</figcaption></figure><p></p>
+<p></p><figure style="margin:0"><img decoding="async" loading="lazy" alt="Variables" src="/assets/images/variables-eb628e7bff9c829d22fb57ec9961e7ba.png" width="1400" height="1540" class="img_jNmF"><figcaption class="text--italic text--center" style="color:var(--ifm-color-content-secondary);font-size:0.875rem">Variables</figcaption></figure><p></p>
 <ul>
 <li>
 <p><strong>Namespace</strong></p>
@@ -115,7 +115,7 @@
 </ul>
 <h2 class="anchor anchorWithHideOnScrollNavbar_PqLj" id="annotations">Annotations<a href="#annotations" class="hash-link" aria-label="Direct link to Annotations" title="Direct link to Annotations">​</a></h2>
 <p>You can integrate events into panels via annotations, the following is a sample creation, it will retrieve all PodChaos events:</p>
-<p></p><figure><img decoding="async" loading="lazy" alt="Annotations" src="/assets/images/annotations-86a3349a09325e27242b1fc1f21b1a45.png" width="2628" height="2000" class="img_jNmF"><figcaption class="text--italic text--center" style="color:var(--ifm-color-content-secondary);font-size:0.875rem">Annotations</figcaption></figure><p></p>
+<p></p><figure style="margin:0"><img decoding="async" loading="lazy" alt="Annotations" src="/assets/images/annotations-86a3349a09325e27242b1fc1f21b1a45.png" width="2628" height="2000" class="img_jNmF"><figcaption class="text--italic text--center" style="color:var(--ifm-color-content-secondary);font-size:0.875rem">Annotations</figcaption></figure><p></p>
 <p>Please refer to <a href="#query">Query</a> to fill in the corresponding fields.</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_PqLj" id="questions-and-feedback">Questions and feedback<a href="#questions-and-feedback" class="hash-link" aria-label="Direct link to Questions and feedback" title="Direct link to Questions and feedback">​</a></h2>
 <p>If you encounter problems during installation or setup, you are welcome to ask questions to the community at <a href="https://cloud-native.slack.com/archives/C0193VAV272" target="_blank" rel="noopener noreferrer">CNCF Slack</a>, or create an <a href="https://github.com/chaos-mesh/datasource/issues" target="_blank" rel="noopener noreferrer">GitHub issue</a> to communicate with the Chaos Mesh team.</p>

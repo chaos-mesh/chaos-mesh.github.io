@@ -16,8 +16,8 @@
 <link rel="search" type="application/opensearchdescription+xml" title="Chaos Mesh" href="/opensearch.xml">
 
 <link rel="preconnect" href="https://www.clarity.ms">
-<script>!function(t,e,n,c,r,s,a){t[n]=t[n]||function(){(t[n].q=t[n].q||[]).push(arguments)},(s=e.createElement(c)).async=1,s.src="https://www.clarity.ms/tag/lggqck9srz",(a=e.getElementsByTagName(c)[0]).parentNode.insertBefore(s,a)}(window,document,"clarity","script")</script><link rel="stylesheet" href="/assets/css/styles.271230bd.css">
-<script src="/assets/js/runtime~main.d59fe71d.js" defer="defer"></script>
+<script>!function(t,e,n,c,r,s,a){t[n]=t[n]||function(){(t[n].q=t[n].q||[]).push(arguments)},(s=e.createElement(c)).async=1,s.src="https://www.clarity.ms/tag/lggqck9srz",(a=e.getElementsByTagName(c)[0]).parentNode.insertBefore(s,a)}(window,document,"clarity","script")</script><link rel="stylesheet" href="/assets/css/styles.1d74298d.css">
+<script src="/assets/js/runtime~main.63e7b4b3.js" defer="defer"></script>
 <script src="/assets/js/main.2377dbc0.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -45,7 +45,7 @@
 <li><strong>Chaos Controller Manager</strong>: The core logical component of Chaos Mesh. Chaos Controller Manager is primarily responsible for the scheduling and management of Chaos experiments. This component contains several CRD Controllers, such as Workflow Controller, Scheduler Controller, and Controllers of various fault types.</li>
 <li><strong>Chaos Daemon</strong>: The main executive component. Chaos Daemon runs in the <a href="https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/" target="_blank" rel="noopener noreferrer">DaemonSet</a> mode and has the Privileged permission by default (which can be disabled). This component mainly interferes with specific network devices, file systems, kernels by hacking into the target Pod Namespace.</li>
 </ul>
-<p></p><figure><img decoding="async" loading="lazy" alt="Architecture" src="/assets/images/architecture-76301820de324f79d79db310b11b9246.png" width="751" height="922" class="img_jNmF"><figcaption class="text--italic text--center" style="color:var(--ifm-color-content-secondary);font-size:0.875rem">Architecture</figcaption></figure><p></p>
+<p></p><figure style="margin:0"><img decoding="async" loading="lazy" alt="Architecture" src="/assets/images/architecture-76301820de324f79d79db310b11b9246.png" width="751" height="922" class="img_jNmF"><figcaption class="text--italic text--center" style="color:var(--ifm-color-content-secondary);font-size:0.875rem">Architecture</figcaption></figure><p></p>
 <p>As shown in the above image, the overall architecture of Chaos Mesh can be divided into three parts from top to bottom:</p>
 <ul>
 <li>User input and observation: User input reaches the Kubernetes API Server starting with a user operation (User). Users do not directly interact with the Chaos Controller Manager. All user operations are eventually reflected as a Chaos resource change (such as the change of NetworkChaos resource).</li>
