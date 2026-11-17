@@ -8,24 +8,24 @@
     <subtitle>Chaos Mesh Blog</subtitle>
     <icon>https://chaos-mesh.org/zh/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Chaos Mesh 2.7.4 and the future of the 2.7 series]]></title>
+        <title type="html"><![CDATA[Chaos Mesh 2.7.4 发布及 2.7 系列维护计划]]></title>
         <id>https://chaos-mesh.org/zh/blog/chaos-mesh-2-7-maintenance/</id>
         <link href="https://chaos-mesh.org/zh/blog/chaos-mesh-2-7-maintenance/"/>
         <updated>2026-11-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Chaos Mesh 2.7 has entered the final phase of its lifecycle. We have released 2.7.4 with security updates and bug fixes for teams still running 2.7. No further 2.7 updates are planned unless we find a security issue. We recommend upgrading to the latest stable version when your cluster is ready.]]></summary>
-        <content type="html"><![CDATA[<p>Chaos Mesh 2.7 has entered the final phase of its lifecycle. We have released <a href="https://github.com/chaos-mesh/chaos-mesh/releases/tag/v2.7.4" target="_blank" rel="noopener noreferrer" class="">2.7.4</a> with security updates and bug fixes for teams still running 2.7. No further 2.7 updates are planned unless we find a security issue. We recommend upgrading to the <a class="" href="https://chaos-mesh.org/zh/versions/">latest stable version</a> when your cluster is ready.</p>
+        <summary type="html"><![CDATA[Chaos Mesh 2.7 系列已进入维护的最后阶段。我们发布了 2.7.4，为仍在使用 2.7 的团队提供安全更新和缺陷修复。除非发现安全问题，否则我们不再计划发布 2.7 系列更新。建议在集群具备升级条件后，升级到最新稳定版。]]></summary>
+        <content type="html"><![CDATA[<p>Chaos Mesh 2.7 系列已进入维护的最后阶段。我们发布了 <a href="https://github.com/chaos-mesh/chaos-mesh/releases/tag/v2.7.4" target="_blank" rel="noopener noreferrer" class="">2.7.4</a>，为仍在使用 2.7 的团队提供安全更新和缺陷修复。除非发现安全问题，否则我们不再计划发布 2.7 系列更新。建议在集群具备升级条件后，升级到<a class="" href="https://chaos-mesh.org/zh/versions/">最新稳定版</a>。</p>
 <!-- -->
-<h2 class="anchor anchorTargetHideOnScrollNavbar_bzj6" id="what-274-fixes">What 2.7.4 fixes<a href="https://chaos-mesh.org/zh/blog/chaos-mesh-2-7-maintenance/#what-274-fixes" class="hash-link" aria-label="What 2.7.4 fixes的直接链接" title="What 2.7.4 fixes的直接链接" translate="no">​</a></h2>
-<p>Most of our maintenance work now goes into the 2.8 series. For 2.7.4, we brought back fixes that matter to teams still running 2.7.</p>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_bzj6" id="274-修复了什么">2.7.4 修复了什么<a href="https://chaos-mesh.org/zh/blog/chaos-mesh-2-7-maintenance/#274-%E4%BF%AE%E5%A4%8D%E4%BA%86%E4%BB%80%E4%B9%88" class="hash-link" aria-label="2.7.4 修复了什么的直接链接" title="2.7.4 修复了什么的直接链接" translate="no">​</a></h2>
+<p>目前，我们的维护工作主要集中在 2.8 系列。2.7.4 将仍在使用 2.7 的团队所需的修复移植回了这个版本。</p>
 <ul>
-<li class=""><strong>Sensitive data in logs.</strong> HTTPChaos no longer logs proxy configuration that can contain TLS data. PhysicalMachineChaos no longer logs request bodies that can contain credentials. The release also updates Dashboard dependencies and container packages with security fixes.</li>
-<li class=""><strong>Experiments and Workflows.</strong> TimeChaos can inject clock offsets on ARM64 again. IOChaos can create the temporary files it needs on newer Linux kernels and reports injection errors when its configuration is rejected. Deleting a Workflow no longer causes the controller to recreate its child resources.</li>
-<li class=""><strong>Dashboard and PhysicalMachineChaos.</strong> The Dashboard no longer crashes when you open a Workflow schedule. It also preserves PhysicalMachineChaos UIDs when you submit imported YAML, and the controller rejects an injection request if the UID is missing.</li>
+<li class=""><strong>日志中的敏感数据。</strong> HTTPChaos 不再记录可能包含 TLS 数据的代理配置。PhysicalMachineChaos 不再记录可能包含凭据的请求体。此版本还更新了 Dashboard 依赖和容器软件包，以修复其中的安全问题。</li>
+<li class=""><strong>实验和 Workflow。</strong> TimeChaos 恢复了在 ARM64 上注入时钟偏移的能力。IOChaos 可以在较新的 Linux 内核上创建所需的临时文件，并在配置被拒绝时报告注入错误。删除 Workflow 后，控制器不再重新创建它的子资源。</li>
+<li class=""><strong>Dashboard 和 PhysicalMachineChaos。</strong> 打开 Workflow 调度时，Dashboard 不再崩溃。提交导入的 YAML 时，Dashboard 会保留 PhysicalMachineChaos 的 UID。注入请求缺少 UID 时，控制器会拒绝该请求。</li>
 </ul>
-<p>See the <a href="https://github.com/chaos-mesh/chaos-mesh/releases/tag/v2.7.4" target="_blank" rel="noopener noreferrer" class="">2.7.4 release notes</a> for the full list of changes.</p>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_bzj6" id="if-you-are-running-27">If you are running 2.7<a href="https://chaos-mesh.org/zh/blog/chaos-mesh-2-7-maintenance/#if-you-are-running-27" class="hash-link" aria-label="If you are running 2.7的直接链接" title="If you are running 2.7的直接链接" translate="no">​</a></h2>
-<p>If you need to stay on 2.7 for now, update to 2.7.4 using the <a class="" href="https://chaos-mesh.org/zh/docs/2.7.4/production-installation-using-helm/#upgrade-chaos-mesh">2.7.4 Helm upgrade guide</a>. The chart now pulls images from <code>cr.chaos-mesh.dev</code> by default. If your cluster pulls directly from GitHub Container Registry, set <code>images.registry=ghcr.io</code>.</p>
-<p>If you can move to the current stable series, check your Kubernetes version against the <a class="" href="https://chaos-mesh.org/zh/supported-releases/">support matrix</a> and plan your upgrade to the <a class="" href="https://chaos-mesh.org/zh/versions/">latest stable release</a>.</p>]]></content>
+<p>完整的变更列表见 <a href="https://github.com/chaos-mesh/chaos-mesh/releases/tag/v2.7.4" target="_blank" rel="noopener noreferrer" class="">2.7.4 发布说明</a>。</p>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_bzj6" id="如果你仍在使用-27">如果你仍在使用 2.7<a href="https://chaos-mesh.org/zh/blog/chaos-mesh-2-7-maintenance/#%E5%A6%82%E6%9E%9C%E4%BD%A0%E4%BB%8D%E5%9C%A8%E4%BD%BF%E7%94%A8-27" class="hash-link" aria-label="如果你仍在使用 2.7的直接链接" title="如果你仍在使用 2.7的直接链接" translate="no">​</a></h2>
+<p>如果暂时需要继续使用 2.7，请参照 <a class="" href="https://chaos-mesh.org/zh/docs/2.7.4/production-installation-using-helm/#%E5%8D%87%E7%BA%A7-chaos-mesh">2.7.4 Helm 升级指南</a>更新到 2.7.4。Helm Chart 现在默认从 <code>cr.chaos-mesh.dev</code> 拉取镜像。如果集群直接从 GitHub Container Registry 拉取镜像，请设置 <code>images.registry=ghcr.io</code>。</p>
+<p>如果可以迁移到当前稳定系列，请查看<a class="" href="https://chaos-mesh.org/zh/supported-releases/">版本支持矩阵</a>，确认你的 Kubernetes 版本是否受支持，并规划升级到<a class="" href="https://chaos-mesh.org/zh/versions/">最新稳定版</a>。</p>]]></content>
         <author>
             <name>Glen Yang</name>
             <uri>https://github.com/g1eny0ung</uri>
