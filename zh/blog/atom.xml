@@ -2,11 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chaos-mesh.org/zh/blog/</id>
     <title>Chaos Mesh Blog</title>
-    <updated>2022-06-07T00:00:00.000Z</updated>
+    <updated>2026-11-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chaos-mesh.org/zh/blog/"/>
     <subtitle>Chaos Mesh Blog</subtitle>
     <icon>https://chaos-mesh.org/zh/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Chaos Mesh 2.7.4 and the future of the 2.7 series]]></title>
+        <id>https://chaos-mesh.org/zh/blog/chaos-mesh-2-7-maintenance/</id>
+        <link href="https://chaos-mesh.org/zh/blog/chaos-mesh-2-7-maintenance/"/>
+        <updated>2026-11-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chaos Mesh 2.7 has entered the final phase of its lifecycle. We have released 2.7.4 with security updates and bug fixes for teams still running 2.7. No further 2.7 updates are planned unless we find a security issue. We recommend upgrading to the latest stable version when your cluster is ready.]]></summary>
+        <content type="html"><![CDATA[<p>Chaos Mesh 2.7 has entered the final phase of its lifecycle. We have released <a href="https://github.com/chaos-mesh/chaos-mesh/releases/tag/v2.7.4" target="_blank" rel="noopener noreferrer" class="">2.7.4</a> with security updates and bug fixes for teams still running 2.7. No further 2.7 updates are planned unless we find a security issue. We recommend upgrading to the <a class="" href="https://chaos-mesh.org/zh/versions/">latest stable version</a> when your cluster is ready.</p>
+<!-- -->
+<h2 class="anchor anchorTargetHideOnScrollNavbar_bzj6" id="what-274-fixes">What 2.7.4 fixes<a href="https://chaos-mesh.org/zh/blog/chaos-mesh-2-7-maintenance/#what-274-fixes" class="hash-link" aria-label="What 2.7.4 fixes的直接链接" title="What 2.7.4 fixes的直接链接" translate="no">​</a></h2>
+<p>Most of our maintenance work now goes into the 2.8 series. For 2.7.4, we brought back fixes that matter to teams still running 2.7.</p>
+<ul>
+<li class=""><strong>Sensitive data in logs.</strong> HTTPChaos no longer logs proxy configuration that can contain TLS data. PhysicalMachineChaos no longer logs request bodies that can contain credentials. The release also updates Dashboard dependencies and container packages with security fixes.</li>
+<li class=""><strong>Experiments and Workflows.</strong> TimeChaos can inject clock offsets on ARM64 again. IOChaos can create the temporary files it needs on newer Linux kernels and reports injection errors when its configuration is rejected. Deleting a Workflow no longer causes the controller to recreate its child resources.</li>
+<li class=""><strong>Dashboard and PhysicalMachineChaos.</strong> The Dashboard no longer crashes when you open a Workflow schedule. It also preserves PhysicalMachineChaos UIDs when you submit imported YAML, and the controller rejects an injection request if the UID is missing.</li>
+</ul>
+<p>See the <a href="https://github.com/chaos-mesh/chaos-mesh/releases/tag/v2.7.4" target="_blank" rel="noopener noreferrer" class="">2.7.4 release notes</a> for the full list of changes.</p>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_bzj6" id="if-you-are-running-27">If you are running 2.7<a href="https://chaos-mesh.org/zh/blog/chaos-mesh-2-7-maintenance/#if-you-are-running-27" class="hash-link" aria-label="If you are running 2.7的直接链接" title="If you are running 2.7的直接链接" translate="no">​</a></h2>
+<p>If you need to stay on 2.7 for now, update to 2.7.4 using the <a class="" href="https://chaos-mesh.org/zh/docs/2.7.4/production-installation-using-helm/#upgrade-chaos-mesh">2.7.4 Helm upgrade guide</a>. The chart now pulls images from <code>cr.chaos-mesh.dev</code> by default. If your cluster pulls directly from GitHub Container Registry, set <code>images.registry=ghcr.io</code>.</p>
+<p>If you can move to the current stable series, check your Kubernetes version against the <a class="" href="https://chaos-mesh.org/zh/supported-releases/">support matrix</a> and plan your upgrade to the <a class="" href="https://chaos-mesh.org/zh/versions/">latest stable release</a>.</p>]]></content>
+        <author>
+            <name>Glen Yang</name>
+            <uri>https://github.com/g1eny0ung</uri>
+        </author>
+        <category label="Chaos Mesh" term="Chaos Mesh"/>
+        <category label="Announcement" term="Announcement"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chaos Mesh Q&A at KUBECON EU 2022]]></title>
         <id>https://chaos-mesh.org/zh/blog/chaos-mesh-qa-at-kubecon-eu-2022/</id>
@@ -290,7 +316,7 @@
         </author>
         <category label="Chaos Mesh" term="Chaos Mesh"/>
         <category label="Chaos Engineering" term="Chaos Engineering"/>
-        <category label="Community" term="Community"/>
+        <category label="Tutorials" term="Tutorials"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Chaos Mesh + SkyWalking: Better Observability for Chaos Engineering]]></title>
@@ -737,6 +763,7 @@
         </author>
         <category label="Chaos Mesh" term="Chaos Mesh"/>
         <category label="Chaos Engineering" term="Chaos Engineering"/>
+        <category label="Use Cases" term="Use Cases"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Chaos Mesh 2.0: To a Chaos Engineering Ecology]]></title>
@@ -979,7 +1006,6 @@
         <category label="Chaos Mesh" term="Chaos Mesh"/>
         <category label="Chaos Engineering" term="Chaos Engineering"/>
         <category label="StressChaos" term="StressChaos"/>
-        <category label="Stress Testing" term="Stress Testing"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Chaos Mesh Remake: One Step Closer toward Chaos as a Service]]></title>
@@ -1098,9 +1124,6 @@
         <author>
             <name>Xiang Wang</name>
             <uri>https://github.com/WangXiangUSTC</uri>
-        </author>
-        <author>
-            <name>Chang Yu</name>
         </author>
         <category label="Chaos Mesh" term="Chaos Mesh"/>
         <category label="Chaos Engineering" term="Chaos Engineering"/>
@@ -1221,120 +1244,5 @@
         </author>
         <category label="Chaos Mesh" term="Chaos Mesh"/>
         <category label="Chaos Engineering" term="Chaos Engineering"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Simulate I/O Faults at Runtime]]></title>
-        <id>https://chaos-mesh.org/zh/blog/how-to-simulate-io-faults-at-runtime/</id>
-        <link href="https://chaos-mesh.org/zh/blog/how-to-simulate-io-faults-at-runtime/"/>
-        <updated>2021-01-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Chaos Engineering - How to simulate I/O faults at runtime]]></summary>
-        <content type="html"><![CDATA[<p></p><figure style="margin:0"><img decoding="async" loading="lazy" alt="Chaos Engineering - How to simulate I/O faults at runtime" src="https://chaos-mesh.org/zh/assets/images/how-to-simulate-io-faults-at-runtime-39daaf89aa83a5be58402f763db0d5c5.jpg" width="3126" height="1043" class="img_m1_h"><figcaption class="text--italic text--center" style="color:var(--ifm-color-content-secondary);font-size:0.875rem">Chaos Engineering - How to simulate I/O faults at runtime</figcaption></figure><p></p>
-<p>In a production environment, filesystem faults might occur due to various incidents such as disk failures and administrator errors. As a Chaos Engineering platform, Chaos Mesh has supported simulating I/O faults in a filesystem ever since its early versions. By simply adding an IOChaos CustomResourceDefinition (CRD), we can watch how the filesystem fails and returns errors.</p>
-<!-- -->
-<p>However, before Chaos Mesh 1.0, this experiment was not easy and may have consumed a lot of resources. We needed to inject sidecar containers to the Pod through the mutating admission webhooks and rewrite the <code>ENTRYPOINT</code> command. Even if no fault was injected, the injected sidecar container caused a substantial amount of overhead.</p>
-<p>Chaos Mesh 1.0 has changed all this. Now, we can use IOChaos to inject faults to a filesystem at runtime. This simplifies the process and greatly reduces system overhead. This blog post introduces how we implement the IOChaos experiment without using a sidecar.</p>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_bzj6" id="io-fault-injection">I/O fault injection<a href="https://chaos-mesh.org/zh/blog/how-to-simulate-io-faults-at-runtime/#io-fault-injection" class="hash-link" aria-label="I/O fault injection的直接链接" title="I/O fault injection的直接链接" translate="no">​</a></h2>
-<p>To simulate I/O faults at runtime, we need to inject faults into a filesystem after the program starts <a href="https://man7.org/linux/man-pages/man2/syscall.2.html" target="_blank" rel="noopener noreferrer" class="">system calls</a> (such as reads and writes) but before the call requests arrive at the target filesystem. We can do that in one of two ways:</p>
-<ul>
-<li class="">Use Berkeley Packet Filter (BPF); however, it <a href="https://github.com/iovisor/bcc/issues/2336" target="_blank" rel="noopener noreferrer" class="">cannot be used to inject delay</a>.</li>
-<li class="">Add a filesystem layer called ChaosFS before the target filesystem. ChaosFS uses the target filesystem as the backend and receives requests from the operating system. The entire call link is <strong>target program syscall</strong> -&gt; <strong>Linux kernel</strong> -&gt; <strong>ChaosFS</strong> -&gt; <strong>target filesystem</strong>. Because ChaosFS is customizable, we can inject delays and errors as we want. Therefore, ChaosFS is our choice.</li>
-</ul>
-<p>But ChaosFS has several problems:</p>
-<ul>
-<li class="">If ChaosFS reads and writes files in the target filesystem, we need to <a href="https://man7.org/linux/man-pages/man2/mount.2.html" target="_blank" rel="noopener noreferrer" class="">mount</a> ChaosFS to a different path than the target path specified in the Pod configuration. ChaosFS <strong>cannot</strong> be mounted to the path of the target directory.</li>
-<li class="">We need to mount ChaosFS <strong>before</strong> the target program starts running. This is because the newly-mounted ChaosFS takes effect only on files that are newly opened by the program in the target filesystem.</li>
-<li class="">We need to mount ChaosFS to the target containter's <code>mnt</code> namespace. For details, see <a href="https://man7.org/linux/man-pages/man7/mount_namespaces.7.html" target="_blank" rel="noopener noreferrer" class="">mount_namespaces(7) — Linux manual page</a>.</li>
-</ul>
-<p>Before Chaos Mesh 1.0, we used the <a href="https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/" target="_blank" rel="noopener noreferrer" class="">mutating admission webhook</a> to implement IOChaos. This technique addressed the three problems lists above and allowed us to:</p>
-<ul>
-<li class="">Run scripts in the target container. This action changed the target directory of the ChaosFS's backend filesystem (for example, from <code>/mnt/a</code> to <code>/mnt/a_bak</code>) so that we could mount ChaosFS to the target path (<code>/mnt/a</code>). Modify the command that starts the Pod. For example, we could modify the original command <code>/app</code> to <code>/waitfs.sh /app</code>.</li>
-<li class="">The <code>waitfs.sh</code> script kept checking whether the filesystem was successfully mounted. If it was mounted, <code>/app</code> was started.</li>
-<li class="">Add a new container in the Pod to run ChaosFS. This container needed to share a volume with the target container (for example, <code>/mnt</code>), and then we mounted this volume to the target directory (for example, <code>/mnt/a</code>). We also properly enabled <a href="https://kubernetes.io/docs/concepts/storage/volumes/#mount-propagation" target="_blank" rel="noopener noreferrer" class="">mount propagation</a> for this volume's mount to penetrate the share to host and then penetrate slave to the target.</li>
-</ul>
-<p>These three approaches allowed us to inject I/O faults while the program was running. However, the injection was far from convenient:</p>
-<ul>
-<li class="">We could only inject faults into a volume subdirectory, not into the entire volume. The workaround was to replace <code>mv</code> (rename) with <code>mount move</code> to move the mount point of the target volume.</li>
-<li class="">We had to explicitly write commands in the Pod rather than implicitly use the image commands. Otherwise, the <code>/waitfs.sh</code> script could not properly start the program after the filesystem was mounted.</li>
-<li class="">The corresponding container needed to have a proper configuration for mount propagation. Due to potential privacy and security issues, we <strong>could not</strong> modify the configuration via the mutating admission webhook.</li>
-<li class="">The injection configuration was troublesome. Worse still, we had to create a new Pod after the configuration was able to inject faults.</li>
-<li class="">We could not withdraw ChaosFS while the program was running. Even if no fault or error was injected, the performance was greatly affected.</li>
-</ul>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_bzj6" id="inject-io-faults-without-the-mutating-admission-webhook">Inject I/O faults without the mutating admission webhook<a href="https://chaos-mesh.org/zh/blog/how-to-simulate-io-faults-at-runtime/#inject-io-faults-without-the-mutating-admission-webhook" class="hash-link" aria-label="Inject I/O faults without the mutating admission webhook的直接链接" title="Inject I/O faults without the mutating admission webhook的直接链接" translate="no">​</a></h2>
-<p>What about cracking these tough nuts without the mutating admission webhook? Let's get back and think a bit about the reason why we used the mutating admission webhook to add a container in which ChaosFS runs. We do that to mount the filesystem to the target container.</p>
-<p>In fact, there is another solution. Instead of adding containers to the Pod, we can first use the <code>setns</code> Linux system call to modify the namespace of the current process and then use the <code>mount</code> call to mount ChaosFS to the target container. Suppose that the filesystem to inject is <code>/mnt</code>. The new injection process is as follows:</p>
-<ol>
-<li class="">Use <code>setns</code> for the current process to enter the mnt namespace of the target container.</li>
-<li class="">Execute <code>mount --move</code> to move <code>/mnt</code> to <code>/mnt_bak</code>.</li>
-<li class="">Mount ChaosFS to <code>/mnt</code> and use <code>/mnt_bak</code> as the backend.</li>
-</ol>
-<p>After the process is finished, the target container will open, read, and write the files in <code>/mnt</code> through ChaosFS. In this way, delays or faults are injected much more easily. However, there are still two questions to answer:</p>
-<ul>
-<li class="">How do you handle the files that are already opened by the target process?</li>
-<li class="">How do you recover the process given that we cannot unmount the filesystem when files are opened?</li>
-</ul>
-<h3 class="anchor anchorTargetHideOnScrollNavbar_bzj6" id="dynamically-replace-file-descriptors">Dynamically replace file descriptors<a href="https://chaos-mesh.org/zh/blog/how-to-simulate-io-faults-at-runtime/#dynamically-replace-file-descriptors" class="hash-link" aria-label="Dynamically replace file descriptors的直接链接" title="Dynamically replace file descriptors的直接链接" translate="no">​</a></h3>
-<p><strong>ptrace solves both of the two questions above.</strong> We can use ptrace to replace the opened file descriptors (FD) at runtime and replace the current working directory (CWD) and mmap.</p>
-<h4 class="anchor anchorTargetHideOnScrollNavbar_bzj6" id="use-ptrace-to-allow-a-tracee-to-run-a-binary-program">Use ptrace to allow a tracee to run a binary program<a href="https://chaos-mesh.org/zh/blog/how-to-simulate-io-faults-at-runtime/#use-ptrace-to-allow-a-tracee-to-run-a-binary-program" class="hash-link" aria-label="Use ptrace to allow a tracee to run a binary program的直接链接" title="Use ptrace to allow a tracee to run a binary program的直接链接" translate="no">​</a></h4>
-<p><a href="https://man7.org/linux/man-pages/man2/ptrace.2.html" target="_blank" rel="noopener noreferrer" class="">ptrace</a> is a powerful tool that makes the target process (tracee) to run any system call or binary program. For a tracee to run the program, ptrace modifies the RIP-pointed address to the target process and adds an <code>int3</code> instruction to trigger a breakpoint. When the binary program stops, we need to restore the registers and memory.</p>
-<blockquote>
-<p><strong>Note:</strong></p>
-<p>In the <a href="https://en.wikipedia.org/wiki/X86_assembly_language" target="_blank" rel="noopener noreferrer" class="">x86_64 architecture</a>, the RIP register (also called an instruction pointer) always points to the memory address at which the next directive is run. To load the program into the target process memory spaces:</p>
-</blockquote>
-<ol>
-<li class="">Use ptrace to call mmap in the target program to allocate the needed memory.</li>
-<li class="">Write the binary program to the newly allocated memory and make the RIP register point to it.</li>
-<li class="">After the binary program stops, call munmap to clean up the memory section.</li>
-</ol>
-<p>As a best practice, we often replace ptrace <code>POKE_TEXT</code> writes with <code>process_vm_writev</code> because if there is a huge amount of data to write, <code>process_vm_writev</code> performs more efficiently.</p>
-<p>Using ptrace, we are able to make a process to replace its own FD. Now we only need a method to make that replacement happen. This method is the <code>dup2</code> system call.</p>
-<h4 class="anchor anchorTargetHideOnScrollNavbar_bzj6" id="use-dup2-to-replace-file-descriptor">Use <code>dup2</code> to replace file descriptor<a href="https://chaos-mesh.org/zh/blog/how-to-simulate-io-faults-at-runtime/#use-dup2-to-replace-file-descriptor" class="hash-link" aria-label="use-dup2-to-replace-file-descriptor的直接链接" title="use-dup2-to-replace-file-descriptor的直接链接" translate="no">​</a></h4>
-<p>The signature of the <code>dup2</code> function is <code>int dup2(int oldfd, int newfd);</code>. It is used to create a copy of the old FD (<code>oldfd</code>). This copy has an FD number of <code>newfd</code>. If <code>newfd</code> already corresponds to the FD of an opened file, the FD on the file that's already opened is automatically closed.</p>
-<p>For example, the current process opens <code>/var/run/__chaosfs__test__/a</code> whose FD is <code>1</code>. To replace this opened file with <code>/var/run/test/a</code>, this process performs the following operations:</p>
-<ol>
-<li class="">Uses the <code>fcntl</code> system call to get the <code>OFlags</code> (the parameter used by the <code>open</code> system call, such as <code>O_WRONLY</code>) of <code>/var/run/__chaosfs__test__/a</code>.</li>
-<li class="">Uses the <code>Iseek</code> system call to get the current location of <code>seek</code>.</li>
-<li class="">Uses the <code>open</code> system call to open <code>/var/run/test/a</code> using the same <code>OFlags</code>. Assume that the FD is <code>2</code>.</li>
-<li class="">Uses <code>Iseek</code> to change the <code>seek</code> location of the newly opened FD <code>2</code>.</li>
-<li class="">Uses <code>dup2(2, 1)</code> to replace the FD <code>1</code> of <code>/var/run/__chaosfs__test__/a</code> with the newly opened FD <code>2</code>.</li>
-<li class="">Closes FD <code>2</code>.</li>
-</ol>
-<p>After the process is finished, FD <code>1</code> of the current process points to <code>/var/run/test/a</code>. So that we can inject faults, any subsequent operations on the target file go through the <a href="https://en.wikipedia.org/wiki/Filesystem_in_Userspace" target="_blank" rel="noopener noreferrer" class="">Filesystem in Userspace</a> (FUSE). FUSE is a software interface for Unix and Unix-like computer operating systems that lets non-privileged users create their own file systems without editing kernel code.</p>
-<h4 class="anchor anchorTargetHideOnScrollNavbar_bzj6" id="write-a-program-to-make-the-target-process-replace-its-own-file-descriptor">Write a program to make the target process replace its own file descriptor<a href="https://chaos-mesh.org/zh/blog/how-to-simulate-io-faults-at-runtime/#write-a-program-to-make-the-target-process-replace-its-own-file-descriptor" class="hash-link" aria-label="Write a program to make the target process replace its own file descriptor的直接链接" title="Write a program to make the target process replace its own file descriptor的直接链接" translate="no">​</a></h4>
-<p>The combined functionality of ptrace and dup2 makes it possible for the tracer to make the tracee replace the opened FD by itself. Now, we need to write a binary program and make the target process run it:</p>
-<blockquote>
-<p><strong>Note:</strong></p>
-<p>In the implementation above, we assume that:</p>
-<ul>
-<li class="">The threads of the target process are POSIX threads and share the opened files.</li>
-<li class="">When the target process creates threads using the <code>clone</code> function, the <code>CLONE_FILES</code> parameter is passed.</li>
-</ul>
-<p>Therefore, Chaos Mesh only replaces the FD of the first thread in the thread group.</p>
-</blockquote>
-<ol>
-<li class="">Write a piece of assembly code according to the two sections above and the usage of syscall directives. <a href="https://github.com/chaos-mesh/toda/blob/1d73871d8ab72b8d1eace55f5222b01957193531/src/replacer/fd_replacer.rs#L133" target="_blank" rel="noopener noreferrer" class="">Here</a> is an example of the assembly code.</li>
-<li class="">Use an assembler to translate the code into a binary program. We use <a href="https://github.com/CensoredUsername/dynasm-rs" target="_blank" rel="noopener noreferrer" class="">dynasm-rs</a> as the assembler.</li>
-<li class="">Use ptrace to make the target process run this program. When the program runs, the FD is replaced at runtime.</li>
-</ol>
-<h3 class="anchor anchorTargetHideOnScrollNavbar_bzj6" id="overall-fault-injection-process">Overall fault injection process<a href="https://chaos-mesh.org/zh/blog/how-to-simulate-io-faults-at-runtime/#overall-fault-injection-process" class="hash-link" aria-label="Overall fault injection process的直接链接" title="Overall fault injection process的直接链接" translate="no">​</a></h3>
-<p>The following diagram illustrates the overall I/O fault injection process:</p>
-<p></p><figure style="margin:0"><img decoding="async" loading="lazy" alt="Fault injection process" src="https://chaos-mesh.org/zh/assets/images/fault-injection-process-581a3b4c6954f9ccb3fc9eb17f45f937.jpg" width="1600" height="778" class="img_m1_h"><figcaption class="text--italic text--center" style="color:var(--ifm-color-content-secondary);font-size:0.875rem">Fault injection process</figcaption></figure><p></p>
-<div style="margin:1rem 0;font-style:italic;text-align:center"> Fault injection process </div>
-<p>In this diagram, each horizontal line corresponds to a thread that runs in the direction of the arrows. The <strong>Mount/Umount Filesystem</strong> and <strong>Replace FD</strong> tasks are carefully arranged in sequence. Given the process above, this arrangement makes a lot of sense.</p>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_bzj6" id="whats-next">What's next<a href="https://chaos-mesh.org/zh/blog/how-to-simulate-io-faults-at-runtime/#whats-next" class="hash-link" aria-label="What's next的直接链接" title="What's next的直接链接" translate="no">​</a></h2>
-<p>I've discussed how we implement fault injection to simulate I/O faults at runtime (see <a href="https://github.com/chaos-mesh/toda" target="_blank" rel="noopener noreferrer" class="">chaos-mesh/toda</a>). However, the current implementation is far from perfect:</p>
-<ul>
-<li class="">Generation numbers are not supported.</li>
-<li class="">ioctl is not supported.</li>
-<li class="">Chaos Mesh does not immediately determine whether a filesystem is successfully mounted. It does so only after one second.</li>
-</ul>
-<p>If you are interested in Chaos Mesh and would like to help us improve it, you're welcome to join <a href="https://slack.cncf.io/" target="_blank" rel="noopener noreferrer" class="">our Slack channel</a> or submit your pull requests or issues to our <a href="https://github.com/chaos-mesh/chaos-mesh" target="_blank" rel="noopener noreferrer" class="">GitHub repository</a>.</p>
-<p>This is the first post in a series on Chaos Mesh implementation. If you want to see how other types of fault injection are implemented, stay tuned.</p>]]></content>
-        <author>
-            <name>Keao Yang</name>
-            <uri>https://github.com/YangKeao</uri>
-        </author>
-        <category label="Chaos Mesh" term="Chaos Mesh"/>
-        <category label="Chaos Engineering" term="Chaos Engineering"/>
-        <category label="Fault Injection" term="Fault Injection"/>
     </entry>
 </feed>
